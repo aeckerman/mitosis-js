@@ -23,3 +23,9 @@ function mousePressed() {
 		}
 	}
 }
+
+function keyPressed() {
+	if (keyCode === SHIFT) {
+		cells.push(new Cell());
+	}
+}
