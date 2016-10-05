@@ -25,7 +25,7 @@ function mousePressed() {
 }
 
 function keyPressed() {
-	if (keyCode === SHIFT) {
+	if (key === 'n' or key === 'N') {
 		cells.push(new Cell());
 	}
 }
